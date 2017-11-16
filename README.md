@@ -8,3 +8,6 @@ Markup for Material design react components and functionality
 ![Filter List](https://raw.githubusercontent.com/chaitanyakaranam/ReactMaterialComponents/master/screenshots/chips%20and%20filters.PNG "Filter List")
 
 ![Filter List](https://raw.githubusercontent.com/chaitanyakaranam/ReactMaterialComponents/master/screenshots/chips%20and%20filters%202.PNG "Filter List")
+
+## Pagination
+![Pagination](https://raw.githubusercontent.com/chaitanyakaranam/ReactMaterialComponents/master/screenshots/Pagination.PNG "Pagination")
