@@ -14,24 +14,11 @@ class AutoSearch extends Component{
             return this.props.searchData.data.items.map(val=>{
                 return(
                     <div>
-                    <div className="col s12">
-                        <div className="card-panel grey lighten-5 z-depth-1">
-                            <div className="row valign-wrapper">
-                                <div className="col s2">
-                                    <img src={val.owner.avatar_url} alt="" className="responsive-img"/>
-                                </div>
-                                <div className="col s10">
-                                    <h4>{val.name}</h4>
-                                    <hr/>
-                                    <br/>
-                                    <span className="black-text">
-                                    {val.description}
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+                        <li className="collection-item avatar">
+                            <img src={val.owner.avatar_url} alt="" className="circle"/>
+                            <span>{val.description}</span>
+                        </li>
+                    </div> 
                 )
             })
         }
@@ -54,7 +41,7 @@ class AutoSearch extends Component{
                         onBlur={()=>{this.hideSearch()}}/>
                     <label htmlFor="autocomplete-input">Search Repositories</label>
                 </div>
-                <ul className='col s12 m8 autocomplete-content dropdown-content'>
+                <ul className='col s12 m8 collection autocomplete-content dropdown-content'>
                     {this.renderAutoSearch()}
                 </ul>    
                 </div>              
