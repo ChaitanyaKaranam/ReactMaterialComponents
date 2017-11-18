@@ -11,3 +11,6 @@ Markup for Material design react components and functionality
 
 ## Pagination
 ![Pagination](https://raw.githubusercontent.com/chaitanyakaranam/ReactMaterialComponents/master/screenshots/Pagination.PNG "Pagination")
+
+## Auto Search
+![AutoSearch](https://raw.githubusercontent.com/chaitanyakaranam/ReactMaterialComponents/master/screenshots/Auto-Search.PNG "AutoSearch")
